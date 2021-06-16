@@ -8,73 +8,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!--header-->
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="./">WebStudio</a>
+    <header class="header">
+      <nav class="main-navigation">
+        <a class="logo link" href="./"
+          ><span class="logo-color-one">Web</span
+          ><span class="logo-color-two">Studio</span></a
+        >
+
+        <ul class="menu list">
+          <li class="menu-item">
+            <a class="menu-link link" href="">Студия</a>
           </li>
-          <li>
-            <a href="">Студия</a>
+          <li class="menu-item">
+            <a class="menu-link link" href="./portfolio.html">Портфолио</a>
           </li>
-          <li>
-            <a href="./portfolio.html">Портфолио</a>
-          </li>
-          <li>
-            <a href="">Контакты</a>
+          <li class="menu-item">
+            <a class="menu-link link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul class="contact-header list">
+        <li class="contact-header-item">
+          <a class="contact-header-link link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
-        <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <li class="contact-header-item">
+          <a class="contact-header-link link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
 
     <main>
       <!--Герой-->
-      <section>
-        <h1>Эффективные решения<br />для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения<br />для вашего бизнеса</h1>
+        <button class="modal-button" type="button">Заказать услугу</button>
       </section>
 
       <!--Особенности-->
-      <section>
+      <section class="features">
         <h2 hidden>Особенности</h2>
-        <ul>
-          <li>
-            <p>Внимание к деталям</p>
-            <p>
+        <ul class="features-list">
+          <li class="features-item list">
+            <p class="features-title">Внимание к деталям</p>
+            <p class="features-description">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
-            <p>Пунктуальность</p>
-            <p>
+          <li class="features-item list">
+            <p class="features-title">Пунктуальность</p>
+            <p class="features-description">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
-            <p>Планирование</p>
-            <p>
+          <li class="features-item list">
+            <p class="features-title">Планирование</p>
+            <p class="features-description">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
-            <p>Современные технологии</p>
-            <p>
+          <li class="features-item list">
+            <p class="features-title">Современные технологии</p>
+            <p class="features-description">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
