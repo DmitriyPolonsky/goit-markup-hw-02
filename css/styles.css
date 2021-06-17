@@ -16,16 +16,7 @@ body {
   font-family: var(--main-font);
 }
 
-/*=======HEADER=======*/
-
-.header {
-  font-family: var(--main-font);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
+/*=======LOGO=======*/
 .logo {
   font-family: var(--secondary-font);
 }
@@ -34,6 +25,21 @@ body {
 }
 .logo-color-two {
   color: #000000;
+}
+.logo-color-three {
+  color: #FFFFFF;
+}
+/*=======END LOGO=======*/
+
+
+/*=======HEADER=======*/
+
+.header {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .main-navigation {
@@ -126,5 +132,99 @@ body {
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+/*=======END FEATURES=======*/
 
+/*=======SERVICES=======*/
+
+.services {
+
+}
+.services-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+
+}
+.services-list-item {
+
+}
+
+/*=======END SERVICES=======*/
+
+/*=======TEAM=======*/
+
+.team {
+
+}
+.team-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.team-list {
+
+}
+.team-member-name {
+    font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.team-member-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/*=======END TEAM=======*/
+
+/*=======FOOTER=======*/
+.footer {
+  background-color: #2F303A;
+}
+.footer-address {
+
+}
+.footer-address-list {
+
+}
+.fotter-address-item {
+
+}
+.fotter-address-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #FFFFFF;
+}
+.fotter-contact-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
