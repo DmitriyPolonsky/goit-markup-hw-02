@@ -2,6 +2,7 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --text-title-color: #212121;
 }
 
 .list {
@@ -19,6 +20,10 @@ body {
 /*=======LOGO=======*/
 .logo {
   font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .logo-color-one {
   color: var(--accent-color);
@@ -50,7 +55,7 @@ body {
 }
 
 .menu-link {
-  color: #212121;
+  color: var(--text-title-color);
 }
 
 .menu-link.current {
@@ -77,6 +82,7 @@ body {
 
 /*=======HERO=======*/
 .hero {
+  text-align: center;
   background: #2f303a;
 }
 .hero-title {
@@ -124,7 +130,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--text-title-color);
 }
 .features-description {
   font-weight: 400;
@@ -148,7 +154,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--text-title-color);
 }
 .services-list-item {
 }
@@ -167,7 +173,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--text-title-color);
 }
 .team-list {
 }
@@ -179,7 +185,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--text-title-color);
 }
 .team-member-position {
   font-weight: 400;
@@ -225,7 +231,7 @@ body {
   line-height: 1.71px;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .fotter-contact-link:hover,
@@ -249,7 +255,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--text-title-color);
 
   background: #f5f4fa;
   border-radius: 4px;
@@ -277,7 +283,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--text-title-color);
 }
 .portfolio-item-description {
   font-weight: 400;
@@ -287,3 +293,4 @@ body {
 
   color: #757575;
 }
+/*=======END PORFOLIO PAGE=======*/
